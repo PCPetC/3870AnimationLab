@@ -1,7 +1,7 @@
 /*
 selector {property:value;}
 */
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway|Roboto|Dosis|Lobster');
 
 /*target-boxing*/
 /*div{
@@ -122,16 +122,64 @@ b{
 }*/
 
 /*Sprite Animation*/
+
+
 .sprite {
     width: 50px;
     height: 72px;
     background-image: url("../img/boulder_sprite_animate.png");
 
-    -webkit-animation: play .8s steps(10) infinite;
+    -webkit-animation: play 0.8s steps(10) infinite;
 
 }
 
 @-webkit-keyframes play {
-   from { background-position:    0px; }
-     to { background-position: -500px; }
+   from { background-position:   0px; }
+     to { background-position: -500x; }
+}
+
+
+/*Transition Animation*/
+.transition1{
+  -webkit-transform: translateY(200px);
+  margin: auto;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  -webkit-transition: border 10s, outline 5s, transform 2s, background-color 6s ease-out;
+
+
+}
+
+.transition1:hover{
+    border: blue 10px solid;
+    outline: solid 20px green;
+    -webkit-transform: skewX(45deg) translateY(200px) scale(3, 1);
+
+
+
+
+}
+
+.transition1:active{
+
+    -webkit-user-select: none;
+    font-family: 'Rye', serif;
+    outline: dashed 1px yellow;
+    -webkit-transform: rotateZ(90deg) translateY(200px);
+    background-color: rgb(0, 0, 0);
+
+
+
+}
+
+
+h1{
+  text-align: center;
+  margin: auto;
+  font: 60px 'Roboto', sans-serif;
+
 }
