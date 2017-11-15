@@ -120,3 +120,18 @@ b{
 @keyframes flip1 {
     -webkit-transform: rotate(180deg);
 }*/
+
+/*Sprite Animation*/
+.sprite {
+    width: 50px;
+    height: 72px;
+    background-image: url("../img/boulder_sprite_animate.png");
+
+    -webkit-animation: play .8s steps(10) infinite;
+
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
