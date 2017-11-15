@@ -150,7 +150,7 @@ b{
   height: 200px;
   background-color: red;
   -webkit-transition: border 10s, outline 5s, transform 2s, background-color 6s ease-out;
-  
+
 
 }
 
@@ -197,4 +197,8 @@ li a{
 li a:hover{
   background-color: rgb(220, 220, 255);
 
+}
+
+p{
+  margin-top: 20px;
 }
