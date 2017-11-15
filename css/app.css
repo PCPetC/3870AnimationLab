@@ -150,7 +150,7 @@ b{
   height: 200px;
   background-color: red;
   -webkit-transition: border 10s, outline 5s, transform 2s, background-color 6s ease-out;
-
+  
 
 }
 
@@ -181,5 +181,20 @@ h1{
   text-align: center;
   margin: auto;
   font: 60px 'Roboto', sans-serif;
+
+}
+
+h2{
+  text-align: center;
+  margin: auto;
+  font: 30px 'Roboto', sans-serif;
+}
+
+li a{
+  background-color: rgb(240, 240, 240);
+}
+
+li a:hover{
+  background-color: rgb(220, 220, 255);
 
 }
