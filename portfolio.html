@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+<body>
+<style>
+  .test{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    /*-webkit-transform: translateX(200), skewX(50deg)*/
+    /*-webkit-transform: translateX(200px);
+    -webkit-transform: skewX(50deg)*/
+
+
+
+    -webkit-animation: sway2 3s infinite;
+    }
+
+    /*-webkit-animation: flip1 0.2s infinite,
+                      slide1 3s infinite,
+                      scale1 3s infinite,
+                      sway1 3s infinite
+                      ;*/
+
+    @-webkit-keyframes sway2{
+        0%{ -webkit-transform: translateX(0px)}
+        50%{ -webkit-transform: translateX(40px);
+             -webkit-transform: skewX(40deg)}
+        60%{ -webkit-transform: translateX(40px)}
+        100%{ -webkit-transform: translateX(0px)}
+
+  }
+</style>
+
+<div class="test">T</div>
+
+</body>
+</html>
+
+</html>
