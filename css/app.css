@@ -168,26 +168,41 @@ b{
 }*/
 
 /*Sprite Animation*/
-
-
 .sprite {
-    width: 50px;
-    height: 72px;
-    background-image: url("../img/boulder_sprite_animate.png");
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/boulder_sprite_10.png");
 
-    -webkit-animation: play 0.8s steps(10) infinite;
-    animation: play 0.8s steps(10) infinite;
-
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;
 }
 
 @-webkit-keyframes play {
-   from { background-position:   0px; }
-     to { background-position: -500x; }
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
 }
 
 @keyframes play {
-   from { background-position:   0px; }
-     to { background-position: -500x; }
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
 }
 
 
